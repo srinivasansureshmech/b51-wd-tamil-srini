@@ -1,0 +1,13 @@
+A blog on Difference between HTTP1.1 vs HTTP2:
+
+* HTTP1.1 is invented in 1997 which uses single request and response service from client to server. But in 2015 HTTP2 was invented which uses Multiplexor request which easily loads webpages faster than old primitive.
+* HTTP1.1 basically used still nowadays in some cases yet, due to its restrictions and poor capability like using single "Transmission Control Protocol"(TCP) for entire webpage cause it to lag in terms of data processing capability, extended page loading latency,. But HTTP2 uses single TCP to transmit multiple requests simultaneously without compromising data transfer speed.
+* HTTP1.1 has major disadvantage that it sends and receives data one by one. Which means if any data lost in between the connection, the leftover data will be on hold and not transferred yet. In other words, the data in where it stuck get always in that thing without doing any other thing with the webpage. whereas HTTP2 don't do that mistake, it seamlessly renders all other data, not bother about leftovers.
+* HTTP1.1 uses text data to transfer and log from client to server but HTTP2 uses binary data protocol to transfer between the same.
+* HTTP1.1 doesn't compress data much(which is an another reason for increased latency) whereas HTTP2 uses HPACK to compress its data to swiftly use it share that.
+* Prioritization: HTTP2 works in the way of data priority- which means what should be loaded first, for example; The header should load faster than the body and then the options menu and other things. These cases are not followed in HTTP1.1.
+* Weightage: It's an another protocol is which gives focus for particular content which should be loaded first. Its otherwise called multiplexor. It's the motherland for HTTP2.
+* Recently HTTP3 invented which is further more delicate than HTTP2. HTTPS is also another protocol which is used for secure transactions of data.
+
+Thanking you,
+SRINIVASAN S (B51-WD-Tamil)
