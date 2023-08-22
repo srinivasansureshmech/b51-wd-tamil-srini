@@ -1,0 +1,17 @@
+write a blog about objects and its internal representation in javascript:
+
+Objects are nearly anything that so called in JavaScript including Array or any other datatypes. Its main purpose is to decrease the number of codelines as well as easy access of available data within particular project.
+
+The Objects are represented by various enumerables in JavaScript that follows; Object literal({})s, functions of objects, Dot(.), etc,.
+Objects have properties were its characteristics. They are not always be in key value pair, else it may found undefined as of other datatypes.
+
+Objects have Primitive Datatypes(Every Datatype) and Reference Datatypes as well. The ordinary rule for each datatype depends on its inheritance. It contains literally String, Variables, Number, Boolean, Undefined. 
+
+As usual Objects start with name which is a variable, its value is assigned next to it as follows; 
+-ObjName.key
+-ObjName['key']
+Objects even contained under functions(Including User defined and library functions).
+We can call any object value using the object name and its key.
+
+Thanking You!
+- SRINIVASAN S(B51 WD Tamil)

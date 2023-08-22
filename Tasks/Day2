@@ -1,0 +1,20 @@
+Write a blog on difference between Document object and Window object:
+
+
+Document object and window object are the two main catagories of displaying content of any web browser and webpage with the Javascript.
+
+Document object is basically contained under window object because what we see in the browser which has a webpage is uner control of Document object model while, window object is what we have in the frame of monitor or web browsers.
+
+Windows object is exactly the tabs and the window which we opened in the browser, while document object is the content which we see inside a web page. The root of document object is BOM(Browser Object Model & DOM) while window object has BOM only.
+
+The document object is called with the code as follows: document.propertyName
+The window object is called with the code: window.propertyName
+Both document and window object has specific properties and libraries. Each called using the above keys.
+
+Fundamentally Document object has several nodes and bytes of data which are coded to arrange and organise which content should occupy which place or somewhere else. The window object usually renders the width and height of the current window it shows in the web-browser.
+
+These two are always different because a web page should react to the screen size of the browser and each one should be designed to fulfil the comfort and compatibility of the user which is only done with the help of window object. Due to restrictions in creation separate programs because of the DNS allots single domain name for particular site hence the size of the web page should be manipulated using the window object and default size of devices. while Documn=ent object chosen by the content presented in the site, which is scripted and allocated to render positive outcome towards every client side feedback.
+
+Document object gives way to colour, Templates, Options menu, Features and other things which are purpoted based on the product inside webpages.
+Thanking You!
+- SRINIVASAN S (B51-WD-Tamil)
