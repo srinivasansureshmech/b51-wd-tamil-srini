@@ -1,9 +1,10 @@
-// Print odd numbers in an array
-let Arr=[1,2,3,4,5];
-    const odds = Arr.filter(function(num){return num % 2 === 1});
-    console.log(odds);
+//Anonymous function to 
 
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-//Convert all the strings to title caps in a string array
-let strArr=['srini','dhana','siva','padma'];
-let toUpper=toUpperCase(strArr[0])
+// Using an anonymous function
+array.forEach(function(number) {
+  if (number % 2 !== 0) {
+    console.log(number);
+  }
+});
