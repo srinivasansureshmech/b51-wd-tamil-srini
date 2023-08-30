@@ -10,12 +10,10 @@ xhr.onload = function () {
     
 
     let countryData=JSON.parse(xhr.responseText);
-    const asia=countryData.filter((element)=>{
-        if(element.region==='Asia'){
-            return element.name;
-        }
-    })
-    console.log(asia);
+        const popu=countryData.filter((element)=>{
+            return element.population<200000;
+        })
+        console.log(popu);
 };
 
 xhr.send();

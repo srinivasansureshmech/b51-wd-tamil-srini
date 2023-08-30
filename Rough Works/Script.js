@@ -30,7 +30,5 @@
 //     return value >= 10;
 //   }
   
-  const filtered = [12, 5, 8, 130, 44]
-  // filtered is [12, 130, 44]
-  console.log(  filtered.filter((value)=>value>=10));
-  
+
+
