@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       
+
+           <span id="spantxt">This is a type of text which change its color when you hover</span>
+
+        <script>
+            let spanText = document.getElementById('spantxt');
+
+            // attach an event listener to the spanText
+            spanText.addEventListener('mouseover', function(){
+                spanText.style.color = 'Green';
+            });
+
+            spanText.addEventListener('mouseout', function(){
+                spanText.style.color = 'Red';
+            });
+        </script>
+</body>
+</html>

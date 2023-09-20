@@ -25,32 +25,34 @@
 // book1.displayInfo();
 
 // Getting input via STDIN
-const readline = require("readline");
+// const readline = require("readline");
 
-const inp = readline.createInterface({
-  input: process.stdin
-});
+// const inp = readline.createInterface({
+//   input: process.stdin
+// });
 
-const userInput = [];
+// const userInput = [];
 
-inp.on("line", (data) => {
-  userInput.push(data);
-});
+// inp.on("line", (data) => {
+//   userInput.push(data);
+// });
 
-inp.on("close", () => {
+// inp.on("close", () => {
 
-let A = userInput[0].split("").join(" ");
-let B= null;
-let C = null;
-for(i=0;i<A.length;i++){
-    if(A%2==0){
-     return B;
+// let A = userInput[0].split("").join(" ");
+// let B= null;
+// let C = null;
+// for(i=0;i<A.length;i++){
+//     if(A%2==0){
+//      return B;
      
-    }
-    if(A%2==1){
-        return C;
-    }
-}
-console.log(B);
-console.log(C);
-});
+//     }
+//     if(A%2==1){
+//         return C;
+//     }
+// }
+// console.log(B);
+// console.log(C);
+// });
+
+console.log(userInput[0].reduce((partialSum, a) => partialSum + a, 0));

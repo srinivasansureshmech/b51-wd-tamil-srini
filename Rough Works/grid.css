@@ -1,0 +1,15 @@
+.contain{
+    grid-template-rows: 3;
+    grid-template-columns: 3;
+}
+#grid1{
+grid-template-columns: max-content;    border: 2px solid black;
+    text-align: center;
+    padding: 20px;  
+}
+#grid1{
+    column-width: auto;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;  
+}
