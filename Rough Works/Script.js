@@ -31,12 +31,12 @@
 //   }
   
 
-let array1 = [1, 2, 3, 4];
+// let array1 = [1, 2, 3, 4];
 
-let array2 = array1; // copy by reference
+// let array2 = array1; // copy by reference
 
-array1.push(5);
-array2.push(7);
+// array1.push(5);
+// array2.push(7);
 
-console.log(array1);
-console.log(array2);
+// console.log(array1);
+// console.log(array2);
