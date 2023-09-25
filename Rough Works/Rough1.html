@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Chuck Norris Jokes</h1>
+</head>
+<body>
+    <button id="click">Click for joke</button>
+    <script>
+    
+    fetch("https://api.chucknorris.io/jokes/random")
+    .then(response => {return response.json()}) 
+    .then(data => {console.log(data)});
+        
+</script>
+    
+</body>
+</html>
